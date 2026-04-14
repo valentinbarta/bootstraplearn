@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link active text-bg-warning"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#hero" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#CVinfo" class="nav-link">My CV</a>
+            </li>
+            <li class="nav-item">
+              <a href="#myprojects" class="nav-link">My projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact me</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+    <section id="hero">
+      <div class="container col-xxl-8 px-4 py-0">
+        <div class="row flex-lg-row-reverse align-items-end g-0 py-0">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./images/IMG_0199.PNG"
+              class="d-block mx-lg-auto img-fluid col-8 col-xl-7 rounded-3"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-5 pt-5">
+              Hi, I'm Valentin
+            </h1>
+            <p class="lead text- fw-normal pb-5">
+              I build websites and then immediately get confused why something
+              that should take 5 minutes turns into me inspecting CSS like it’s
+              a crime scene. I work with HTML, CSS, Bootstrap, React… basically
+              whatever I need until the layout stops acting personal. I like
+              things clean and simple, but somehow I always end up debugging a
+              navbar at 2am wondering why one missing quote can destroy my
+              entire life.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="aboutme"></section>
+    <section id="CVinfo"></section>
+    <section id="myprojects">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">My projects so far</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <a href="https://valentinbarta.github.io/tindog-bootstrap/" class="text-decoration-none"
+              ><div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url(./images/Tindog.png);
+                  background-position-x: center;
+                  background-size: cover;
+                "
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
+                >
+                  <h3
+                    class="py-1 px-1 mt-5 mb-4 display-6 lh-1 fw-bold text-bg-dark bg-opacity-50 rounded-3"
+                  >
+                    TinDog made as a project from <br />Angela Yu
+                  </h3>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="col">
+            <a
+              href="https://valentinbarta.github.io/html-portfolio/"
+              class="text-decoration-none"
+              ><div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="background-image: url(./images/HTML\ Portfolio.png)"
+              >
+                <div
+                  class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 justify-content-end"
+                >
+                  <h3
+                    class="py-1 px-1 mt-5 mb-4 display-6 lh-1 fw-bold text-bg-dark bg-opacity-50 rounded-3"
+                  >
+                    HTML Learning
+                  </h3>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="col">
+            <a
+              href="https://valentinbarta.github.io/csstest/"
+              class="text-decoration-none"
+              ><div
+                class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                style="
+                  background-image: url(./images/CSS\ Practice.png);
+                  background-size: cover;
+                  background-position-x: center;
+                "
+              >
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-5">
+                  <h3
+                    class="py-1 px-1 mt-5 mb-4 display-6 lh-1 fw-bold text-bg-dark bg-opacity-50 rounded-3"
+                  >
+                    Here is where I learned about CSS
+                  </h3>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 bg-white border-top"
+    id="footer"
+  >
+    <div class="col-md-4 d-flex align-items-center">
+      <a
+        href="/"
+        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+        aria-label="Bootstrap"
+      >
+        <svg class="bi" width="30" height="24" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary"
+        >© 2026 Valentin Barta</span
+      >
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a
+          class="text-body-secondary"
+          href="https://www.instagram.com/vali_barta/"
+          aria-label="Instagram"
+        >
+          <img src="./images/instagram.svg" alt="instagram profile button" />
+        </a>
+      </li>
+      <li class="ms-3">
+        <a
+          class="text-body-secondary"
+          href="https://wa.me/40722775406"
+          aria-label="Whatsapp"
+        >
+          <img src="./images/whatsapp.svg" alt="whatsapp message button" />
+        </a>
+      </li>
+      <li class="ms-3 pe-4">
+        <a
+          class="text-body-secondary"
+          href="https://www.linkedin.com/in/valentinbarta/"
+          aria-label="LinkedIn"
+        >
+          <img src="./images/linkedin.svg" alt="Linkedin profile button" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+</html>

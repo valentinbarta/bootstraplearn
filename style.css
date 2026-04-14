@@ -1,0 +1,27 @@
+
+.nav-link {
+    color: #ffc107 !important;
+}
+
+.footer {
+  background-color: white; /* or whatever you want */
+}
+
+.carousel-item {
+    max-height: 80vh !important;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+#hero {
+    background-image: url(./images/3411563.jpg);
+    max-width: 100%;
+}
+
+.samibagpl img {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
